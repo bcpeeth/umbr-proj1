@@ -1,8 +1,12 @@
-﻿// Customized variables import
-@import "variables_customized";
-
-//----- BOOTSTRAP
+﻿
 @import "../vendor/bootstrap/scss/functions";
+
+// Customized variables import
+@import "variables_customized";
+@import "typography";
+
+
+//-----BOOTSTRAP
 @import "../vendor/bootstrap/scss/mixins";
 @import "../vendor/bootstrap/scss/reboot";
 @import "../vendor/bootstrap/scss/type";
@@ -12,3 +16,6 @@
 @import "../vendor/bootstrap/scss/button-group";
 @import "../vendor/bootstrap/scss/input-group";
 @import "../vendor/bootstrap/scss/custom-forms";
+
+
+
