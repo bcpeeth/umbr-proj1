@@ -11,9 +11,14 @@
 
 @import "./blocks/header";
 @import "./blocks/footer";
+@import "./blocks/block_two-col-text";
 
 .bg-blue {
     background-color: rgb(74, 194, 241);
+}
+
+.bg-lightgrey {
+    background-color: lightgrey;
 }
 
 
