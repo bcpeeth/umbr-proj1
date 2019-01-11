@@ -1,5 +1,6 @@
 ﻿//-----LAYOUT
 @import "typography";
+@import "custom-variables";
 
 
 //-----BOOTSTRAP
@@ -11,7 +12,13 @@
 
 @import "./blocks/header";
 @import "./blocks/footer";
-@import "./blocks/block_two-col-text";
+@import "./blocks/text-block";
+@import "./blocks/list";
+@import "./blocks/cards";
+@import "./blocks/hero";
+@import "./blocks/images";
+
+
 
 .bg-blue {
     background-color: rgb(74, 194, 241);
