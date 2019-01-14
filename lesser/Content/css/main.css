@@ -3,7 +3,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
-  color: #7f7f7f;
+  color: #575757 !important;
   background: #fff;
   height: 100%;
   position: relative; }
@@ -6998,6 +6998,8 @@ a.text-dark:hover, a.text-dark:focus {
   z-index: 99;
   background-color: #FFFFFF;
   box-shadow: 0px 10px 7px -11px #949494; }
+  .header a {
+    color: red; }
   .header .navbar {
     font-size: 15px; }
   .header .main-nav {
@@ -7099,7 +7101,7 @@ a.text-dark:hover, a.text-dark:focus {
   margin-right: 5px;
   height: 15px;
   width: 15px;
-  background-color: #49A4D6;
+  background-color: #00A3AD;
   margin-top: 2px; }
 
 .list-vertical ul {
@@ -7117,7 +7119,7 @@ a.text-dark:hover, a.text-dark:focus {
   margin-right: 5px;
   height: 15px;
   width: 15px;
-  background-color: #49A4D6;
+  background-color: #00A3AD;
   margin-bottom: -3px; }
 
 *,
@@ -7265,7 +7267,8 @@ html {
   align-items: center; }
 
 .bg-blue {
-  background-color: #4ac2f1; }
+  background-color: #00A3AD;
+  color: #FFFFFF !important; }
 
 .bg-lightgrey {
   background-color: lightgrey; }
