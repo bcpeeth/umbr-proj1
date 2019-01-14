@@ -7042,6 +7042,9 @@ a.text-dark:hover, a.text-dark:focus {
     .header .nav-links:hover {
       color: #00A3AD; } }
 
+.footer {
+  background-color: #00A3AD; }
+
 .text-block {
   max-height: 305px;
   overflow: auto; }
@@ -7217,6 +7220,7 @@ html {
 .hero {
   margin-top: 60px;
   height: 60vh;
+  background-color: #5c5c7a;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -7255,6 +7259,10 @@ html {
   height: 180px;
   max-width: 180px;
   margin: 0 auto; }
+
+.flex-center {
+  display: flex;
+  align-items: center; }
 
 .bg-blue {
   background-color: #4ac2f1; }

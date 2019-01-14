@@ -18,7 +18,10 @@
 @import "./blocks/hero";
 @import "./blocks/images";
 
-
+.flex-center {
+    display: flex;
+    align-items: center;
+  }
 
 .bg-blue {
     background-color: rgb(74, 194, 241);

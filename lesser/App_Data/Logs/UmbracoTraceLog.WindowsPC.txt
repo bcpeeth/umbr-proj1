@@ -1,101 +1,104 @@
-﻿ 2019-01-11 08:49:07,572 [P1416/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.13.0 application starting on WINDOWSPC
- 2019-01-11 08:49:07,617 [P1416/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
- 2019-01-11 08:49:07,629 [P1416/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 14ms)
- 2019-01-11 08:49:07,687 [P1416/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
- 2019-01-11 08:49:07,689 [P1416/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
- 2019-01-11 08:49:07,692 [P1416/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-11 08:49:07,868 [P1416/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 178ms)
- 2019-01-11 08:49:07,870 [P1416/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
- 2019-01-11 08:49:07,871 [P1416/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 1ms)
- 2019-01-11 08:49:07,919 [P1416/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-11 08:49:07,922 [P1416/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-11 08:49:07,922 [P1416/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
- 2019-01-11 08:49:07,922 [P1416/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
- 2019-01-11 08:49:07,923 [P1416/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-11 08:49:07,923 [P1416/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-11 08:49:07,923 [P1416/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
- 2019-01-11 08:49:07,924 [P1416/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 1ms)
- 2019-01-11 08:49:07,933 [P1416/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-11 08:49:07,933 [P1416/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-11 08:49:07,933 [P1416/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
- 2019-01-11 08:49:07,934 [P1416/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
- 2019-01-11 08:49:07,934 [P1416/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-11 08:49:07,935 [P1416/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-11 08:49:07,935 [P1416/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
- 2019-01-11 08:49:07,935 [P1416/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 0ms)
- 2019-01-11 08:49:10,203 [P1416/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
- 2019-01-11 08:49:10,720 [P1416/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
- 2019-01-11 08:49:10,851 [P1416/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
- 2019-01-11 08:49:10,851 [P1416/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
- 2019-01-11 08:49:11,010 [P1416/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3546ms)
- 2019-01-11 08:49:12,113 [P1416/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://localhost:11117/umbraco
- 2019-01-11 08:49:12,113 [P1416/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:11117/umbraco (UmbracoModule request)
- 2019-01-11 08:49:12,867 [P1416/D2/T11] INFO  umbraco.content - Load Xml from file...
- 2019-01-11 08:49:12,876 [P1416/D2/T11] INFO  umbraco.content - Loaded Xml from file.
- 2019-01-11 08:49:13,601 [P1416/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-11 08:49:13,601 [P1416/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-11 08:49:13,601 [P1416/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
- 2019-01-11 08:49:13,602 [P1416/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 1ms)
- 2019-01-11 08:49:13,610 [P1416/D2/T7] INFO  Umbraco.Core.Manifest.ManifestWatcher - manifest has changed, app pool is restarting (g:\wamp64\www\1.Umbraco\proj.1 (lesser)\lesser\App_Plugins\ModelsBuilder\package.manifest)
- 2019-01-11 08:49:13,633 [P1416/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
- 2019-01-11 08:49:13,633 [P1416/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
- 2019-01-11 08:49:13,635 [P1416/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
- 2019-01-11 08:49:13,636 [P1416/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
- 2019-01-11 08:49:13,638 [P1416/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
- 2019-01-11 08:49:13,638 [P1416/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
- 2019-01-11 08:49:13,638 [P1416/D2/T12] INFO  Umbraco.Core.MainDom - Stopping...
- 2019-01-11 08:49:13,639 [P1416/D2/T13] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
- 2019-01-11 08:49:13,639 [P1416/D2/T13] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
- 2019-01-11 08:49:13,643 [P1416/D2/T13] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
- 2019-01-11 08:49:13,644 [P1416/D2/T12] INFO  Umbraco.Web.ExamineStartup - Examine shutting down
- 2019-01-11 08:49:13,648 [P1416/D2/T12] INFO  Umbraco.Web.ExamineStartup - Complete (took 3ms)
- 2019-01-11 08:49:13,650 [P1416/D2/T12] INFO  Umbraco.Core.MainDom - Released MainDom.
- 2019-01-11 08:49:13,651 [P1416/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
- 2019-01-11 08:49:13,651 [P1416/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
- 2019-01-11 08:49:13,651 [P1416/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
- 2019-01-11 08:49:13,651 [P1416/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
- 2019-01-11 08:49:13,653 [P1416/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Terminating
- 2019-01-11 08:49:13,653 [P1416/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Waiting for tasks to complete
- 2019-01-11 08:49:13,653 [P1416/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Terminating
- 2019-01-11 08:49:13,653 [P1416/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Waiting for tasks to complete
- 2019-01-11 08:49:13,653 [P1416/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Tasks completed, terminated
- 2019-01-11 08:49:13,659 [P1416/D2/T13] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
- 2019-01-11 08:49:13,659 [P1416/D2/T13] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
- 2019-01-11 08:49:13,659 [P1416/D2/T13] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Tasks completed, terminated
- 2019-01-11 08:49:20,536 [P1416/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.13.0 application starting on WINDOWSPC
- 2019-01-11 08:49:20,571 [P1416/D3/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
- 2019-01-11 08:49:20,583 [P1416/D3/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 11ms)
- 2019-01-11 08:49:20,647 [P1416/D3/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
- 2019-01-11 08:49:20,648 [P1416/D3/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
- 2019-01-11 08:49:20,653 [P1416/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-11 08:49:20,737 [P1416/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 83ms)
- 2019-01-11 08:49:20,738 [P1416/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
- 2019-01-11 08:49:20,740 [P1416/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 2ms)
- 2019-01-11 08:49:20,778 [P1416/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-11 08:49:20,779 [P1416/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-11 08:49:20,780 [P1416/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
- 2019-01-11 08:49:20,781 [P1416/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 1ms)
- 2019-01-11 08:49:20,782 [P1416/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-11 08:49:20,782 [P1416/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-11 08:49:20,782 [P1416/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
- 2019-01-11 08:49:20,786 [P1416/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 3ms)
- 2019-01-11 08:49:20,797 [P1416/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-11 08:49:20,797 [P1416/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-11 08:49:20,799 [P1416/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
- 2019-01-11 08:49:20,799 [P1416/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
- 2019-01-11 08:49:20,800 [P1416/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-11 08:49:20,801 [P1416/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
- 2019-01-11 08:49:20,801 [P1416/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
- 2019-01-11 08:49:20,801 [P1416/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 1ms)
- 2019-01-11 08:49:23,140 [P1416/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
- 2019-01-11 08:49:23,827 [P1416/D3/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
- 2019-01-11 08:49:24,138 [P1416/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
- 2019-01-11 08:49:24,139 [P1416/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
- 2019-01-11 08:49:24,316 [P1416/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3903ms)
- 2019-01-11 08:49:25,050 [P1416/D3/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://localhost:11117/umbraco
- 2019-01-11 08:49:25,056 [P1416/D3/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:11117/umbraco (UmbracoModule request)
- 2019-01-11 08:49:25,060 [P1416/D3/T13] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:11117/umbraco (UmbracoModule request)
- 2019-01-11 08:49:43,782 [P1416/D2/T11] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: UnloadAppDomainCalled
+﻿ 2019-01-14 09:34:53,358 [P6128/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.13.0 application starting on WINDOWSPC
+ 2019-01-14 09:34:53,422 [P6128/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2019-01-14 09:34:53,437 [P6128/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 15ms)
+ 2019-01-14 09:34:53,576 [P6128/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2019-01-14 09:34:53,580 [P6128/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2019-01-14 09:34:53,584 [P6128/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-14 09:34:53,663 [P6128/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 79ms)
+ 2019-01-14 09:34:53,664 [P6128/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2019-01-14 09:34:53,666 [P6128/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 2ms)
+ 2019-01-14 09:34:53,716 [P6128/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-14 09:34:53,717 [P6128/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2019-01-14 09:34:53,718 [P6128/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2019-01-14 09:34:53,718 [P6128/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2019-01-14 09:34:53,719 [P6128/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-14 09:34:53,719 [P6128/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-14 09:34:53,719 [P6128/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2019-01-14 09:34:53,723 [P6128/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 3ms)
+ 2019-01-14 09:34:53,751 [P6128/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-14 09:34:53,751 [P6128/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-14 09:34:53,752 [P6128/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2019-01-14 09:34:53,755 [P6128/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 2ms)
+ 2019-01-14 09:34:53,756 [P6128/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-14 09:34:53,756 [P6128/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-14 09:34:53,757 [P6128/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2019-01-14 09:34:53,759 [P6128/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 2ms)
+ 2019-01-14 09:34:57,490 [P6128/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2019-01-14 09:34:58,279 [P6128/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2019-01-14 09:34:58,560 [P6128/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2019-01-14 09:34:58,561 [P6128/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2019-01-14 09:34:58,731 [P6128/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 5577ms)
+ 2019-01-14 09:34:58,739 [P6128/D2/T1] INFO  Umbraco.Web.ExamineStartup - Forcing index InternalMemberIndexSet to be unlocked since it was left in a locked state
+ 2019-01-14 09:34:58,741 [P6128/D2/T1] INFO  Umbraco.Web.ExamineStartup - Forcing index InternalIndexSet to be unlocked since it was left in a locked state
+ 2019-01-14 09:34:58,743 [P6128/D2/T1] INFO  Umbraco.Web.ExamineStartup - Forcing index ExternalIndexSet to be unlocked since it was left in a locked state
+ 2019-01-14 09:34:59,139 [P6128/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://localhost:11117/umbraco
+ 2019-01-14 09:34:59,143 [P6128/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:11117/umbraco (UmbracoModule request)
+ 2019-01-14 09:34:59,936 [P6128/D2/T10] INFO  umbraco.content - Load Xml from file...
+ 2019-01-14 09:34:59,944 [P6128/D2/T10] INFO  umbraco.content - Loaded Xml from file.
+ 2019-01-14 09:35:01,212 [P6128/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-14 09:35:01,212 [P6128/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-14 09:35:01,213 [P6128/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2019-01-14 09:35:01,215 [P6128/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 1ms)
+ 2019-01-14 09:35:01,238 [P6128/D2/T7] INFO  Umbraco.Core.Manifest.ManifestWatcher - manifest has changed, app pool is restarting (g:\wamp64\www\1.Umbraco\proj.1 (lesser)\lesser\App_Plugins\ModelsBuilder\package.manifest)
+ 2019-01-14 09:35:01,265 [P6128/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2019-01-14 09:35:01,265 [P6128/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2019-01-14 09:35:01,271 [P6128/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Terminating
+ 2019-01-14 09:35:01,272 [P6128/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Waiting for tasks to complete
+ 2019-01-14 09:35:01,276 [P6128/D2/T12] INFO  Umbraco.Core.MainDom - Stopping...
+ 2019-01-14 09:35:01,282 [P6128/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2019-01-14 09:35:01,282 [P6128/D2/T13] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Tasks completed, terminated
+ 2019-01-14 09:35:01,287 [P6128/D2/T12] INFO  Umbraco.Web.ExamineStartup - Examine shutting down
+ 2019-01-14 09:35:01,294 [P6128/D2/T12] INFO  Umbraco.Web.ExamineStartup - Complete (took 6ms)
+ 2019-01-14 09:35:01,295 [P6128/D2/T12] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2019-01-14 09:35:01,296 [P6128/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2019-01-14 09:35:01,296 [P6128/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2019-01-14 09:35:01,297 [P6128/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2019-01-14 09:35:01,299 [P6128/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2019-01-14 09:35:01,299 [P6128/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Terminating
+ 2019-01-14 09:35:01,300 [P6128/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Waiting for tasks to complete
+ 2019-01-14 09:35:01,300 [P6128/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Tasks completed, terminated
+ 2019-01-14 09:35:01,298 [P6128/D2/T13] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2019-01-14 09:35:01,304 [P6128/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2019-01-14 09:35:01,315 [P6128/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2019-01-14 09:35:01,315 [P6128/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2019-01-14 09:35:01,321 [P6128/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2019-01-14 09:35:01,321 [P6128/D2/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2019-01-14 09:35:01,322 [P6128/D2/T13] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2019-01-14 09:35:01,322 [P6128/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2019-01-14 09:35:07,462 [P6128/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.13.0 application starting on WINDOWSPC
+ 2019-01-14 09:35:07,500 [P6128/D3/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2019-01-14 09:35:07,516 [P6128/D3/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 16ms)
+ 2019-01-14 09:35:07,616 [P6128/D3/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2019-01-14 09:35:07,618 [P6128/D3/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2019-01-14 09:35:07,621 [P6128/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-14 09:35:07,754 [P6128/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 132ms)
+ 2019-01-14 09:35:07,754 [P6128/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2019-01-14 09:35:07,757 [P6128/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 3ms)
+ 2019-01-14 09:35:07,809 [P6128/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-14 09:35:07,810 [P6128/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2019-01-14 09:35:07,811 [P6128/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2019-01-14 09:35:07,811 [P6128/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2019-01-14 09:35:07,812 [P6128/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-14 09:35:07,813 [P6128/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-14 09:35:07,813 [P6128/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2019-01-14 09:35:07,816 [P6128/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 2ms)
+ 2019-01-14 09:35:07,845 [P6128/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-14 09:35:07,846 [P6128/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-14 09:35:07,846 [P6128/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2019-01-14 09:35:07,847 [P6128/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2019-01-14 09:35:07,848 [P6128/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-14 09:35:07,848 [P6128/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-14 09:35:07,848 [P6128/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2019-01-14 09:35:07,850 [P6128/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 1ms)
+ 2019-01-14 09:35:11,433 [P6128/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2019-01-14 09:35:12,103 [P6128/D3/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2019-01-14 09:35:12,382 [P6128/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2019-01-14 09:35:12,382 [P6128/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2019-01-14 09:35:12,555 [P6128/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 5212ms)
+ 2019-01-14 09:35:13,309 [P6128/D3/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://localhost:11117/umbraco
+ 2019-01-14 09:35:13,312 [P6128/D3/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:11117/umbraco (UmbracoModule request)
+ 2019-01-14 09:35:13,313 [P6128/D3/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:11117/umbraco (UmbracoModule request)
+ 2019-01-14 09:35:31,365 [P6128/D2/T10] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: UnloadAppDomainCalled
 
 _shutDownMessage=User code called UnloadAppDomain
 HostingEnvironment initiated shutdown
@@ -113,380 +116,122 @@ _shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needF
    at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
    at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
    at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
- 2019-01-11 08:52:25,358 [P1416/D3/T12] INFO  umbraco.content - Load Xml from file...
- 2019-01-11 08:52:25,361 [P1416/D3/T12] INFO  umbraco.content - Loaded Xml from file.
- 2019-01-11 08:52:26,442 [P1416/D3/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-11 08:52:26,442 [P1416/D3/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-11 08:52:26,442 [P1416/D3/T12] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
- 2019-01-11 08:52:26,442 [P1416/D3/T12] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 1ms)
- 2019-01-11 08:53:25,430 [P1416/D3/T21] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-11 08:53:25,430 [P1416/D3/T21] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-11 08:53:25,437 [P1416/D3/T21] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
- 2019-01-11 08:53:25,438 [P1416/D3/T21] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 1ms)
- 2019-01-11 08:53:25,491 [P1416/D3/T6] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-01-10 08:53:25
- 2019-01-11 09:01:42,002 [P1416/D3/T66] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:01:42,003 [P1416/D3/T66] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:01:42,003 [P1416/D3/T66] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:01:42,003 [P1416/D3/T66] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:01:42,233 [P1416/D3/T60] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:01:42,234 [P1416/D3/T60] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:01:42,240 [P1416/D3/T66] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:01:42,241 [P1416/D3/T66] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:01:42,241 [P1416/D3/T66] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:01:42,241 [P1416/D3/T66] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:01:42,252 [P1416/D3/T66] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:01:42,254 [P1416/D3/T66] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:01:42,252 [P1416/D3/T60] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:01:42,258 [P1416/D3/T60] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:01:42,273 [P1416/D3/T66] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:01:42,275 [P1416/D3/T66] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:31,041 [P1416/D3/T106] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:31,042 [P1416/D3/T106] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:31,050 [P1416/D3/T112] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:31,051 [P1416/D3/T112] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:31,320 [P1416/D3/T112] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:31,321 [P1416/D3/T112] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:31,322 [P1416/D3/T112] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:31,323 [P1416/D3/T112] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:31,328 [P1416/D3/T106] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:31,328 [P1416/D3/T106] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:31,331 [P1416/D3/T106] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:31,332 [P1416/D3/T106] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:31,334 [P1416/D3/T106] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:31,335 [P1416/D3/T106] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:31,335 [P1416/D3/T106] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:31,336 [P1416/D3/T106] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:33,645 [P1416/D3/T110] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:33,646 [P1416/D3/T110] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:33,654 [P1416/D3/T112] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:33,654 [P1416/D3/T112] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:33,751 [P1416/D3/T106] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:33,752 [P1416/D3/T106] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:33,758 [P1416/D3/T110] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:33,758 [P1416/D3/T103] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:33,759 [P1416/D3/T109] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:33,759 [P1416/D3/T103] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:33,760 [P1416/D3/T110] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:33,760 [P1416/D3/T109] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:33,765 [P1416/D3/T111] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:33,765 [P1416/D3/T111] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:33,772 [P1416/D3/T111] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:10:33,772 [P1416/D3/T111] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:11:43,568 [P1416/D3/T116] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:11:43,570 [P1416/D3/T116] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:11:43,582 [P1416/D3/T116] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:11:43,582 [P1416/D3/T116] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:11:43,913 [P1416/D3/T117] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:11:43,914 [P1416/D3/T117] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:11:43,937 [P1416/D3/T109] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:11:43,939 [P1416/D3/T109] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:11:43,958 [P1416/D3/T109] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:11:43,959 [P1416/D3/T109] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:11:43,965 [P1416/D3/T109] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:11:43,967 [P1416/D3/T109] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:11:43,968 [P1416/D3/T109] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:11:43,968 [P1416/D3/T109] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:12:21,519 [P1416/D3/T117] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:12:21,521 [P1416/D3/T117] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:12:21,532 [P1416/D3/T115] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:12:21,536 [P1416/D3/T115] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:12:22,414 [P1416/D3/T117] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:12:22,414 [P1416/D3/T117] ERROR Umbraco.Core.UriExtensions - Failed to determine if request was client side
-System.ArgumentException: Illegal characters in path.
-   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
-   at System.IO.Path.GetExtension(String path)
-   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
- 2019-01-11 09:24:25,262 [P1416/D3/T134] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-11 09:24:25,263 [P1416/D3/T134] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-11 09:24:25,263 [P1416/D3/T134] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
- 2019-01-11 09:24:25,274 [P1416/D3/T134] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 13ms)
- 2019-01-11 09:24:25,535 [P1416/D3/T126] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-11 09:24:25,535 [P1416/D3/T126] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-11 09:24:25,536 [P1416/D3/T126] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
- 2019-01-11 09:24:25,539 [P1416/D3/T126] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 2ms)
- 2019-01-11 09:24:30,080 [P1416/D3/T124] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username pedro.maria82@gmail.com from IP address ::1
- 2019-01-11 09:24:30,083 [P1416/D3/T124] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: pedro.maria82@gmail.com logged in from IP address ::1
- 2019-01-11 09:24:30,978 [P1416/D3/T151] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-11 09:24:30,979 [P1416/D3/T151] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-11 09:24:30,979 [P1416/D3/T151] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
- 2019-01-11 09:24:30,980 [P1416/D3/T151] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 2ms)
- 2019-01-11 09:24:31,018 [P1416/D3/T151] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-11 09:24:31,018 [P1416/D3/T151] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-11 09:24:31,018 [P1416/D3/T151] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
- 2019-01-11 09:24:31,020 [P1416/D3/T151] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 1ms)
- 2019-01-11 09:24:31,026 [P1416/D3/T151] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-11 09:24:31,027 [P1416/D3/T151] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-11 09:24:31,027 [P1416/D3/T151] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
- 2019-01-11 09:24:31,028 [P1416/D3/T151] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 4ms)
- 2019-01-11 09:24:31,064 [P1416/D3/T151] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2019-01-11 09:24:31,064 [P1416/D3/T151] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
- 2019-01-11 09:24:31,064 [P1416/D3/T151] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
- 2019-01-11 09:24:31,065 [P1416/D3/T151] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 3ms)
+ 2019-01-14 13:35:29,785 [P6128/D3/T39] INFO  umbraco.content - Load Xml from file...
+ 2019-01-14 13:35:29,787 [P6128/D3/T39] INFO  umbraco.content - Loaded Xml from file.
+ 2019-01-14 13:35:30,341 [P6128/D3/T39] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-14 13:35:30,341 [P6128/D3/T39] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-14 13:35:30,342 [P6128/D3/T39] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2019-01-14 13:35:30,343 [P6128/D3/T39] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 1ms)
+ 2019-01-14 13:35:30,354 [P6128/D3/T45] INFO  Umbraco.Core.Manifest.ManifestWatcher - manifest has changed, app pool is restarting (g:\wamp64\www\1.Umbraco\proj.1 (lesser)\lesser\App_Plugins\ModelsBuilder\package.manifest)
+ 2019-01-14 13:35:30,364 [P6128/D3/T33] INFO  Umbraco.Core.MainDom - Stopping...
+ 2019-01-14 13:35:30,374 [P6128/D3/T33] INFO  Umbraco.Web.ExamineStartup - Examine shutting down
+ 2019-01-14 13:35:30,379 [P6128/D3/T33] INFO  Umbraco.Web.ExamineStartup - Complete (took 5ms)
+ 2019-01-14 13:35:30,379 [P6128/D3/T33] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2019-01-14 13:35:30,381 [P6128/D3/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2019-01-14 13:35:30,381 [P6128/D3/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2019-01-14 13:35:30,381 [P6128/D3/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Terminating
+ 2019-01-14 13:35:30,381 [P6128/D3/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Waiting for tasks to complete
+ 2019-01-14 13:35:30,382 [P6128/D3/T48] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2019-01-14 13:35:30,383 [P6128/D3/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Tasks completed, terminated
+ 2019-01-14 13:35:30,383 [P6128/D3/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2019-01-14 13:35:30,383 [P6128/D3/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2019-01-14 13:35:30,384 [P6128/D3/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2019-01-14 13:35:30,384 [P6128/D3/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2019-01-14 13:35:30,385 [P6128/D3/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2019-01-14 13:35:30,385 [P6128/D3/T49] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2019-01-14 13:35:30,389 [P6128/D3/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Terminating
+ 2019-01-14 13:35:30,389 [P6128/D3/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Waiting for tasks to complete
+ 2019-01-14 13:35:30,389 [P6128/D3/T42] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Tasks completed, terminated
+ 2019-01-14 13:35:30,389 [P6128/D3/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2019-01-14 13:35:30,390 [P6128/D3/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2019-01-14 13:35:30,390 [P6128/D3/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2019-01-14 13:35:30,390 [P6128/D3/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2019-01-14 13:35:30,390 [P6128/D3/T26] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2019-01-14 13:35:30,390 [P6128/D3/T43] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2019-01-14 13:35:36,667 [P6128/D4/T51] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.13.0 application starting on WINDOWSPC
+ 2019-01-14 13:35:36,724 [P6128/D4/T51] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2019-01-14 13:35:36,738 [P6128/D4/T51] INFO  Umbraco.Core.PluginManager - Hash determined (took 14ms)
+ 2019-01-14 13:35:36,868 [P6128/D4/T51] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2019-01-14 13:35:36,872 [P6128/D4/T51] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2019-01-14 13:35:36,875 [P6128/D4/T51] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-14 13:35:37,029 [P6128/D4/T51] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 153ms)
+ 2019-01-14 13:35:37,029 [P6128/D4/T51] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2019-01-14 13:35:37,030 [P6128/D4/T51] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 1ms)
+ 2019-01-14 13:35:37,059 [P6128/D4/T51] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-14 13:35:37,059 [P6128/D4/T51] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-14 13:35:37,060 [P6128/D4/T51] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2019-01-14 13:35:37,061 [P6128/D4/T51] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2019-01-14 13:35:37,061 [P6128/D4/T51] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-14 13:35:37,062 [P6128/D4/T51] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-14 13:35:37,062 [P6128/D4/T51] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2019-01-14 13:35:37,063 [P6128/D4/T51] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 1ms)
+ 2019-01-14 13:35:37,083 [P6128/D4/T51] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-14 13:35:37,083 [P6128/D4/T51] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-14 13:35:37,083 [P6128/D4/T51] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2019-01-14 13:35:37,084 [P6128/D4/T51] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2019-01-14 13:35:37,084 [P6128/D4/T51] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-14 13:35:37,084 [P6128/D4/T51] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-14 13:35:37,084 [P6128/D4/T51] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2019-01-14 13:35:37,085 [P6128/D4/T51] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 0ms)
+ 2019-01-14 13:35:38,929 [P6128/D4/T51] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2019-01-14 13:35:39,319 [P6128/D4/T51] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2019-01-14 13:35:39,480 [P6128/D4/T51] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2019-01-14 13:35:39,481 [P6128/D4/T51] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2019-01-14 13:35:39,578 [P6128/D4/T51] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3063ms)
+ 2019-01-14 13:35:40,421 [P6128/D4/T59] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://localhost:11117/umbraco
+ 2019-01-14 13:35:40,424 [P6128/D4/T59] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:11117/umbraco (UmbracoModule request)
+ 2019-01-14 13:36:00,431 [P6128/D3/T39] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: UnloadAppDomainCalled
+
+_shutDownMessage=User code called UnloadAppDomain
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.UnloadAppDomain()
+   at Umbraco.Core.Manifest.ManifestWatcher.FswChanged(Object sender, FileSystemEventArgs e)
+   at System.IO.FileSystemWatcher.OnChanged(FileSystemEventArgs e)
+   at System.IO.FileSystemWatcher.CompletionStatusChanged(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* overlappedPointer)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+ 2019-01-14 13:36:49,514 [P6128/D4/T13] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-14 13:36:49,515 [P6128/D4/T13] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-14 13:36:49,515 [P6128/D4/T13] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2019-01-14 13:36:49,516 [P6128/D4/T13] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 1ms)
+ 2019-01-14 13:36:50,030 [P6128/D4/T46] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-14 13:36:50,030 [P6128/D4/T46] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-14 13:36:50,030 [P6128/D4/T46] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2019-01-14 13:36:50,031 [P6128/D4/T46] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 0ms)
+ 2019-01-14 13:36:50,233 [P6128/D4/T46] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-14 13:36:50,233 [P6128/D4/T46] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-14 13:36:50,233 [P6128/D4/T46] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2019-01-14 13:36:50,234 [P6128/D4/T46] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 1ms)
+ 2019-01-14 13:36:56,310 [P6128/D4/T43] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username pedro.maria82@gmail.com from IP address ::1
+ 2019-01-14 13:36:56,312 [P6128/D4/T43] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: pedro.maria82@gmail.com logged in from IP address ::1
+ 2019-01-14 13:36:57,116 [P6128/D4/T26] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-14 13:36:57,116 [P6128/D4/T26] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-14 13:36:57,116 [P6128/D4/T26] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2019-01-14 13:36:57,117 [P6128/D4/T26] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 0ms)
+ 2019-01-14 13:36:57,138 [P6128/D4/T26] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-14 13:36:57,139 [P6128/D4/T26] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-14 13:36:57,139 [P6128/D4/T26] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2019-01-14 13:36:57,140 [P6128/D4/T26] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2019-01-14 13:36:57,144 [P6128/D4/T26] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-14 13:36:57,144 [P6128/D4/T26] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-14 13:36:57,144 [P6128/D4/T26] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2019-01-14 13:36:57,145 [P6128/D4/T26] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 0ms)
+ 2019-01-14 13:36:57,164 [P6128/D4/T26] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-14 13:36:57,165 [P6128/D4/T26] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-14 13:36:57,165 [P6128/D4/T26] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2019-01-14 13:36:57,166 [P6128/D4/T26] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 0ms)
+ 2019-01-14 13:36:57,387 [P6128/D4/T43] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-01-14 13:36:57,388 [P6128/D4/T43] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-01-14 13:36:57,388 [P6128/D4/T43] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2019-01-14 13:36:57,388 [P6128/D4/T43] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 0ms)
+ 2019-01-14 13:37:50,006 [P6128/D4/T33] INFO  umbraco.content - Load Xml from file...
+ 2019-01-14 13:37:50,009 [P6128/D4/T33] INFO  umbraco.content - Loaded Xml from file.
+ 2019-01-14 13:37:50,054 [P6128/D4/T43] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-01-13 13:37:49
