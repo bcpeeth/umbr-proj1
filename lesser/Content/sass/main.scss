@@ -18,6 +18,21 @@
 @import "./blocks/hero";
 @import "./blocks/images";
 @import "./blocks/blocks";
+@import "./blocks/_projects";
+
+
+
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+    color: $color-darkgrey !important;
+    background: #fff;
+    height: 100%;
+    margin-top: 60px !important;
+    position: relative;
+}
 
 .flex-center {
     display: flex;
@@ -34,7 +49,7 @@
 }
 
 .bg-lightgrey {
-    background-color: lightgrey;
+    background-color:#f7f7f7;
 }
 
 

@@ -6,8 +6,8 @@
 
 <section class="intro">
 	<div class="container py-5">
-		<div class="row flex-center text-center">
-			<div class="col-md-7">
+		<div class="row justify-content-center">
+			<div class="col-md-7 text-center">
 				<h2>@Umbraco.Field("introTitle")</h2>
 					@Umbraco.Field("introContent")
 				</div>
@@ -15,7 +15,7 @@
 	</div>
 </section>
 
-	<div class="blocks">
+	<div class="blocks bg-lightgrey">
 		<div class="container-fluid">
 			<div class="row flex-center">
 			@{
@@ -23,12 +23,12 @@
 
 				foreach(var item in items) {
 					if(item.DocumentTypeAlias == "blockText") {
-						<div class="col-md-6">
+						<div class="col-md-6 px-5 py-3">
+							<h3>
+								@item.GetPropertyValue("title")
+							</h3>
 							<div class="text-block__news">
-								<h3>
-									@item.GetPropertyValue("title")
-								</h3>
-								@item.GetPropertyValue("text")
+								@item.GetPropertyValue("textContent")
 							</div>
 						</div>
 					} else {
@@ -58,4 +58,4 @@
 			</div>
 		</div>
 	</div> *@
-}
+

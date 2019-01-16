@@ -5,3 +5,76 @@
 
 @* the fun starts here *@
 
+<section class="project-intro">
+	<div class="container py-5">
+		<div class="row justify-content-center">
+			<div class="col-md-7 text-center">
+				<h2>@Umbraco.Field("projectsIntroTitle")</h2>
+				<p>@Umbraco.Field("projectsIntroContent")</p>
+				</div>
+		</div>
+	</div>
+</section>
+
+<section class="project-types bg-blue">
+	<div class="container py-5">
+		<div class="row justify-content-center">
+			<div class="col text-center">
+				<h3>@Umbraco.Field("projectTypeTitle1")</h3>
+				<p>@Umbraco.Field("projectType1")</p>
+			</div>
+			<div class="col text-center">
+				<h3>@Umbraco.Field("projectTypeTitle2")</h3>
+				<p>@Umbraco.Field("projectType2")</p>
+			</div>
+			<div class="col text-center">
+				<h3>@Umbraco.Field("projectTypeTitle3")</h3>
+				<p>@Umbraco.Field("projectType3")</p>
+			</div>
+			<div class="col text-center">
+				<h3>@Umbraco.Field("projectTypeTitle4")</h3>
+				<p>@Umbraco.Field("projectType4")</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+	@{
+		var mediaId1 = Umbraco.Field("projectTeamImage1");
+		var media1   = Umbraco.Media(mediaId1.ToString());
+		var image1   = media1.Url;
+
+		var mediaId2 = Umbraco.Field("projectTeamImage2");
+		var media2   = Umbraco.Media(mediaId2.ToString());
+		var image2   = media2.Url;
+
+		var mediaId3 = Umbraco.Field("projectTeamImage3");
+		var media3   = Umbraco.Media(mediaId3.ToString());
+		var image3   = media3.Url;
+	}
+
+<section class="project-team">
+	<div class="container text-center py-5">
+		<div class="row justify-content-center">
+			<div class="col px-md-5">
+				<img src="@image1">
+				<h4>@Umbraco.Field("projectTeamName1")</h4>
+				<p>@Umbraco.Field("projectTeamText1")</p>
+			</div>
+			<div class="col px-md-5">
+				<img src="@image2">
+				<h4>@Umbraco.Field("projectTeamName2")</h4>
+				<p>@Umbraco.Field("projectTeamText2")</p>
+			</div>
+			<div class="col px-md-5">
+				<img src="@image3">
+				<h4>@Umbraco.Field("projectTeamName3")</h4>
+				<p>@Umbraco.Field("projectTeamText3")</p>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+

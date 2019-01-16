@@ -8,8 +8,8 @@ using  Umbraco.Web;
 using  Umbraco.ModelsBuilder;
 using  Umbraco.ModelsBuilder.Umbraco;
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "d24cb8543897a594")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.3")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "4110180479432999")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
 
 
 // FILE: models.generated.cs
@@ -170,6 +170,177 @@ namespace Umbraco.Web.PublishedContentModels
 		{
 			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
 		}
+
+		///<summary>
+		/// Projects Intro Content
+		///</summary>
+		[ImplementPropertyType("projectsIntroContent")]
+		public IHtmlString ProjectsIntroContent
+		{
+			get { return this.GetPropertyValue<IHtmlString>("projectsIntroContent"); }
+		}
+
+		///<summary>
+		/// Projects Intro Title
+		///</summary>
+		[ImplementPropertyType("projectsIntroTitle")]
+		public string ProjectsIntroTitle
+		{
+			get { return this.GetPropertyValue<string>("projectsIntroTitle"); }
+		}
+
+		///<summary>
+		/// Project Team Image 1
+		///</summary>
+		[ImplementPropertyType("projectTeamImage1")]
+		public IPublishedContent ProjectTeamImage1
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("projectTeamImage1"); }
+		}
+
+		///<summary>
+		/// Project Team Image 2
+		///</summary>
+		[ImplementPropertyType("projectTeamImage2")]
+		public IPublishedContent ProjectTeamImage2
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("projectTeamImage2"); }
+		}
+
+		///<summary>
+		/// Project Team Image 3
+		///</summary>
+		[ImplementPropertyType("projectTeamImage3")]
+		public IPublishedContent ProjectTeamImage3
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("projectTeamImage3"); }
+		}
+
+		///<summary>
+		/// Project Team Name 1
+		///</summary>
+		[ImplementPropertyType("projectTeamName1")]
+		public string ProjectTeamName1
+		{
+			get { return this.GetPropertyValue<string>("projectTeamName1"); }
+		}
+
+		///<summary>
+		/// Project Team Name 2
+		///</summary>
+		[ImplementPropertyType("projectTeamName2")]
+		public string ProjectTeamName2
+		{
+			get { return this.GetPropertyValue<string>("projectTeamName2"); }
+		}
+
+		///<summary>
+		/// Project Team Name 3
+		///</summary>
+		[ImplementPropertyType("projectTeamName3")]
+		public string ProjectTeamName3
+		{
+			get { return this.GetPropertyValue<string>("projectTeamName3"); }
+		}
+
+		///<summary>
+		/// Project Team Text 1
+		///</summary>
+		[ImplementPropertyType("projectTeamText1")]
+		public IHtmlString ProjectTeamText1
+		{
+			get { return this.GetPropertyValue<IHtmlString>("projectTeamText1"); }
+		}
+
+		///<summary>
+		/// Project Team Text 2
+		///</summary>
+		[ImplementPropertyType("projectTeamText2")]
+		public IHtmlString ProjectTeamText2
+		{
+			get { return this.GetPropertyValue<IHtmlString>("projectTeamText2"); }
+		}
+
+		///<summary>
+		/// Project Team Text 3
+		///</summary>
+		[ImplementPropertyType("projectTeamText3")]
+		public IHtmlString ProjectTeamText3
+		{
+			get { return this.GetPropertyValue<IHtmlString>("projectTeamText3"); }
+		}
+
+		///<summary>
+		/// Project Type 1
+		///</summary>
+		[ImplementPropertyType("projectType1")]
+		public IHtmlString ProjectType1
+		{
+			get { return this.GetPropertyValue<IHtmlString>("projectType1"); }
+		}
+
+		///<summary>
+		/// Project Type 2
+		///</summary>
+		[ImplementPropertyType("projectType2")]
+		public IHtmlString ProjectType2
+		{
+			get { return this.GetPropertyValue<IHtmlString>("projectType2"); }
+		}
+
+		///<summary>
+		/// Project Type 3
+		///</summary>
+		[ImplementPropertyType("projectType3")]
+		public IHtmlString ProjectType3
+		{
+			get { return this.GetPropertyValue<IHtmlString>("projectType3"); }
+		}
+
+		///<summary>
+		/// Project Type 4
+		///</summary>
+		[ImplementPropertyType("projectType4")]
+		public IHtmlString ProjectType4
+		{
+			get { return this.GetPropertyValue<IHtmlString>("projectType4"); }
+		}
+
+		///<summary>
+		/// Project Type Title 1
+		///</summary>
+		[ImplementPropertyType("projectTypeTitle1")]
+		public string ProjectTypeTitle1
+		{
+			get { return this.GetPropertyValue<string>("projectTypeTitle1"); }
+		}
+
+		///<summary>
+		/// Project Type Title 2
+		///</summary>
+		[ImplementPropertyType("projectTypeTitle2")]
+		public string ProjectTypeTitle2
+		{
+			get { return this.GetPropertyValue<string>("projectTypeTitle2"); }
+		}
+
+		///<summary>
+		/// Project Type Title 3
+		///</summary>
+		[ImplementPropertyType("projectTypeTitle3")]
+		public string ProjectTypeTitle3
+		{
+			get { return this.GetPropertyValue<string>("projectTypeTitle3"); }
+		}
+
+		///<summary>
+		/// Project Type Title 4
+		///</summary>
+		[ImplementPropertyType("projectTypeTitle4")]
+		public string ProjectTypeTitle4
+		{
+			get { return this.GetPropertyValue<string>("projectTypeTitle4"); }
+		}
 	}
 
 	/// <summary>Information</summary>
@@ -224,21 +395,12 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
-		/// Image
+		/// Text Content
 		///</summary>
-		[ImplementPropertyType("image")]
-		public IPublishedContent Image
+		[ImplementPropertyType("textContent")]
+		public IHtmlString TextContent
 		{
-			get { return this.GetPropertyValue<IPublishedContent>("image"); }
-		}
-
-		///<summary>
-		/// Text
-		///</summary>
-		[ImplementPropertyType("text")]
-		public string Text
-		{
-			get { return this.GetPropertyValue<string>("text"); }
+			get { return this.GetPropertyValue<IHtmlString>("textContent"); }
 		}
 
 		///<summary>
