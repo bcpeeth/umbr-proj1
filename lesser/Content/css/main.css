@@ -6,6 +6,7 @@ body {
   color: #575757 !important;
   background: #fff;
   height: 100%;
+  margin-top: 60px !important;
   position: relative; }
 
 /*!
@@ -7262,9 +7263,30 @@ html {
   max-width: 180px;
   margin: 0 auto; }
 
+.blocks {
+  display: flex; }
+  .blocks .col-md-6 {
+    padding: 0; }
+
+.text-block__news {
+  max-width: 100%;
+  padding: 50px; }
+
+.image-block__news img {
+  max-width: 100%; }
+
+.blocks > div {
+  flex: 1; }
+
+.blocks-wrapper:nth-child(1) > .blocks {
+  flex-direction: row-reverse; }
+
 .flex-center {
   display: flex;
   align-items: center; }
+
+.bg-violet {
+  background-color: violet; }
 
 .bg-blue {
   background-color: #00A3AD;

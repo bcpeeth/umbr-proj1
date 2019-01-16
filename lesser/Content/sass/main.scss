@@ -17,10 +17,15 @@
 @import "./blocks/cards";
 @import "./blocks/hero";
 @import "./blocks/images";
+@import "./blocks/blocks";
 
 .flex-center {
     display: flex;
     align-items: center;
+  }
+
+  .bg-violet {
+      background-color: violet;
   }
 
 .bg-blue {

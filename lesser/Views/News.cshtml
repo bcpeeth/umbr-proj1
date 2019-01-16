@@ -3,3 +3,59 @@
 @{
 	Layout = "Master.cshtml";
 }
+
+<section class="intro">
+	<div class="container py-5">
+		<div class="row flex-center text-center">
+			<div class="col-md-7">
+				<h2>@Umbraco.Field("introTitle")</h2>
+					@Umbraco.Field("introContent")
+				</div>
+		</div>
+	</div>
+</section>
+
+	<div class="blocks">
+		<div class="container-fluid">
+			<div class="row flex-center">
+			@{
+				var items = Model.Content.GetPropertyValue<IEnumerable<IPublishedContent>>("blocks");
+
+				foreach(var item in items) {
+					if(item.DocumentTypeAlias == "blockText") {
+						<div class="col-md-6">
+							<div class="text-block__news">
+								<h3>
+									@item.GetPropertyValue("title")
+								</h3>
+								@item.GetPropertyValue("text")
+							</div>
+						</div>
+					} else {
+						<div class="col-md-6">
+							<div class="image-block__news">
+								@*<img src="@item.GetPropertyValue("image").Url" />*@
+								<img src="../Content/images/hero.jpg">
+							</div>
+						</div>
+					}
+				}
+			}
+			</div>
+		</div>
+	</div>
+
+	@* <div class="blocks-wrapper">
+		<div class="blocks">
+			<div class="text-block bg-violet">
+				<h3>
+					@item.GetPropertyValue("title")
+				</h3>
+				@item.GetPropertyValue("text")
+			</div>
+			<div class="image-block">
+				@item.GetPropertyValue("image")
+			</div>
+		</div>
+	</div> *@
+}

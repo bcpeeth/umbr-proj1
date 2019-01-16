@@ -1,0 +1,36 @@
+
+
+.blocks{
+    display: flex;
+    // background-color: rgb(96, 122, 126);
+    // color: white;
+
+    .col-md-6 {
+        padding: 0;
+    }
+}
+
+.text-block {
+    // background-color: green;
+    &__news {
+        max-width: 100%;
+        padding: 50px;
+    }
+}
+
+.image-block {
+    // background-color: blue;
+    &__news {
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+.blocks > div {
+    flex: 1;
+}
+
+.blocks-wrapper:nth-child(1) > .blocks {
+    flex-direction: row-reverse;
+}
